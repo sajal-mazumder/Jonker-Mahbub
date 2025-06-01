@@ -188,6 +188,68 @@ let world = "World";
 let concat = hello + world;
 console.log(concat);
 
+// 5. math 5 addition
+
+let rice = 153;
+let dal = 261;
+let total = rice + dal;
+console.log(total);
+
+// 6. math 6 division and modulus
+
+let myMoney = 500;
+let canCost = 75;
+let howMany = myMoney / canCost;
+console.log(howMany);
+
+let moneyRest = myMoney % canCost;
+console.log(moneyRest);
+
+// 7. math 7 division and modulus
+
+const number = 8;
+const number2 = 3;
+const numResult = number / number2;
+console.log(numResult);
+
+const numRst = number % number2;
+console.log(numRst);
+
+// 8. math 8 only modulus
+
+let fifty = 50;
+let nine = 9;
+let modulus = fifty / nine;
+console.log(modulus);
+
+// 9. math 9 concat string
+
+let bangla = 'Bangla';
+let desh = 'desh';
+let bangladesh = bangla + desh;
+console.log(bangladesh);
+
+// 10. math 10 
+
+var rices = 12;
+var riceKg = 12* 40;
+var dailyEat = 4;
+var eatDay = riceKg / dailyEat;
+console.log(eatDay);
+
+var month = 30;
+var eatMonth = riceKg / month;
+console.log(eatMonth);
+
+
+
+
+
+
+
+
+
+
 
 
 
