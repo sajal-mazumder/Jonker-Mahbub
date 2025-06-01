@@ -277,46 +277,88 @@
 // topics : variable change
 
 // 1. 
-let myAge = 30;
-myAge = 33;
-console.log(myAge);
+// let myAge = 30;
+// myAge = 33;
+// console.log(myAge);
 
-// 2. 
+// // 2. 
 
-let pocketMoney = 500;
-pocketMoney = 200;
-console.log(pocketMoney);
+// let pocketMoney = 500;
+// pocketMoney = 200;
+// console.log(pocketMoney);
+
+// // 3. 
+
+// let studyTimes = 4;
+// studyTimes = 5;
+// console.log(studyTimes);
+
+// // 4. 
+
+// let friendsCount = 10;
+// friendsCount = 10 - 2;
+// console.log(friendsCount);
+
+// // 5. 
+
+// let phonePrice = 25000;
+// phonePrice = 12500;
+// console.log(phonePrice);
+
+// // 6. 
+
+// let chairsCount = 40;
+// chairsCount = 40-2;
+// chairsCount = (40 - 2)- 6;
+// console.log(chairsCount);
+
+// // 7. 
+
+// let playTime = 3;
+// playTime = 0;
+// console.log(playTime);
+
+//### topics : commenst 
+
+// 1. cricket score comment ban vs eng 2025
+
+let score = 321;
+
+// 2. cricket circle radius
+
+let radius = 20;
 
 // 3. 
+/* my dresses are in my ware drove.
+i like my black shirt .
+i also like my navy blue pant.*/
 
-let studyTimes = 4;
-studyTimes = 5;
-console.log(studyTimes);
+let dress = 'dress';
 
-// 4. 
+// 4. giftMoney. in my birthday celebration
 
-let friendsCount = 10;
-friendsCount = 10 - 2;
-console.log(friendsCount);
+let giftMoney = 1000;
 
-// 5. 
+// 5. studyTime 8 hours. 
+/* bangla 1 hour
+english 2 hour
+math 2 hour
+physics 1 hour
+chemistry 1 hour
+biology 1 hour */
 
-let phonePrice = 25000;
-phonePrice = 12500;
-console.log(phonePrice);
+let myStudyTime = 8;
 
 // 6. 
+/* send money 2040 tk.
+recipient get 2000 tk 
+bkas charge 40 tk. */
 
-let chairsCount = 40;
-chairsCount = 40-2;
-chairsCount = (40 - 2)- 6;
-console.log(chairsCount);
+let sendMoney = 2040;
 
-// 7. 
+// 7. product price with delivery charges
 
-let playTime = 3;
-playTime = 0;
-console.log(playTime);
+let toPay = 2035;
 
 
 
