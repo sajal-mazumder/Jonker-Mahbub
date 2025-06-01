@@ -112,6 +112,91 @@ const favColor = 'black';
 console.log(favColor);
 
 
+// ### topics : boolean
+
+// 1 . is happy
+
+let happy = false;
+console.log(happy);
+
+// 2. crush message
+
+let crushMassege = true;
+console.log(crushMassege);
+
+// 3. team win celebrating
+
+let celebrating = true;
+console.log(celebrating);
+
+// 4. three declaration
+
+let isHappy = true;
+console.log(isHappy);
+
+let hasMoney = false;
+console.log(hasMoney);
+
+let isHungry = true;
+console.log(isHungry);
+
+// 5. is study done
+
+const isStudyDone = true;
+console.log(isStudyDone);
+
+// 6. phone charged
+
+let isPhoneCharged = true;
+console.log(isPhoneCharged);
+
+// 7. dinner done
+
+let isDinnerDone = false;
+console.log(isDinnerDone);
+
+// ### js math
+
+// 1. math 1 substraction
+
+let earn = 100;
+let cost = 40;
+let rest = earn - cost ;
+console.log(rest);
+
+// 2. math 2 division
+
+let myPencil = 10;
+let perUse = 2;
+let totalUse = myPencil/ perUse;
+console.log(totalUse);
+
+// 3. math 3 division and modulus
+
+let myTaka = 60;
+let perCost = 15;
+let totalAttempt = myTaka / perCost;
+console.log(totalAttempt); // division
+
+let totalRest = myTaka % perCost
+console.log(totalRest);  // modulus
+
+// 4. math 4 concat string
+
+let hello = 'Hello';
+let world = "World";
+let concat = hello + world;
+console.log(concat);
+
+
+
+
+
+
+
+
+
+
 
 
 
