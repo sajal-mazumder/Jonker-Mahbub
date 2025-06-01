@@ -360,6 +360,45 @@ let sendMoney = 2040;
 
 let toPay = 2035;
 
+// topics : reserved word and case sensitive
+
+// 1. camelcase
+
+myFavFood = 'biriyani'
+
+// 2. case sensitive 
+
+let city = 'chattagram';
+let City = 'Dhaka';
+console.log(city);
+console.log(City);
+
+// 3. case sensitive 
+
+let userName = 'john';
+let username = 'jovan'
+
+// 4. camel case
+
+let myHomeAddress = 'Sandwip';
+console.log(myHomeAddress);
+
+// 5. keyword
+
+// let super = "superOver" // super is a reserved keyword
+
+// 6. 
+
+// let class = "six";  // class is a reserved keyword
+
+// 7. number at first of variable name
+
+// let 2ndPosition = 2; // it shows error because of 2 in the first position.
+
+
+
+
+
 
 
 
