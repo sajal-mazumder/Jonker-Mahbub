@@ -584,6 +584,37 @@ if (isLogin == true) {
     console.log("log in first");
 }
 
+// 3. 
+isRunning = 5;
+if (isRunning != 5) {
+    console.log('eating chocolate');
+}else{
+    console.log('belly will be fat'); // this line will execute    
+}
+
+// 4. 
+let marks = 85;
+if (marks > 80) {
+    console.log('father will buy me a bike');
+}else{
+    console.log("no bike");
+}
+
+// 5. 
+var movieTime = 9;
+if (movieTime < 9) {
+    console.log('I will see movie');
+} else {
+    console.log('sleeping time');
+}
+
+// 6. 
+var temp = 30;
+if (temp >= 30) {
+    console.log('ac will running');
+} else {
+    console.log('no ac');
+}
 
 
 
