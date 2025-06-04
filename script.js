@@ -483,44 +483,113 @@ let username = 'jovan'
 // topics : variable comparison
 
 // 1.
-let lilAge = 10;
-let myAge = 25;
-console.log(lilAge <= myAge);
+// let lilAge = 10;
+// let myAge = 25;
+// console.log(lilAge <= myAge);
 
-// 2. 
-let passMark = 33;
-let myMark = 45;
-console.log(passMark < myMark);
+// // 2. 
+// let passMark = 33;
+// let myMark = 45;
+// console.log(passMark < myMark);
 
-// 3.
-let jambura = 45;
-let codbel = 45;
-console.log(jambura == codbel);
+// // 3.
+// let jambura = 45;
+// let codbel = 45;
+// console.log(jambura == codbel);
 
-// 4.
-let myRead = 10;
-let friendRead = 10;
-console.log(myRead == friendRead);
+// // 4.
+// let myRead = 10;
+// let friendRead = 10;
+// console.log(myRead == friendRead);
 
-// 5.
-let myBiscuit = 10;
-let friendBiscuit = 15;
-console.log(myBiscuit < friendBiscuit);
+// // 5.
+// let myBiscuit = 10;
+// let friendBiscuit = 15;
+// console.log(myBiscuit < friendBiscuit);
 
-// 6. 
-let realGoal = 2;
-let barcaGoal = 1;
-console.log(realGoal >= barcaGoal);
+// // 6. 
+// let realGoal = 2;
+// let barcaGoal = 1;
+// console.log(realGoal >= barcaGoal);
 
-// 7.
-let myName = "Rahim";
-let friendName = "Karim";
-console.log(myName == friendName);
+// // 7.
+// let myName = "Rahim";
+// let friendName = "Karim";
+// console.log(myName == friendName);
 
-// 8.
-let myReading = true;
-let friendReading = false
-console.log(myReading == friendReading);
+// // 8.
+// let myReading = true;
+// let friendReading = false
+// console.log(myReading == friendReading);
+
+// topics : triple equal and not equal
+
+// 1.
+// let myMoney = 50;
+// let friendMoney = '50';
+// console.log(myMoney == friendMoney); // true
+// console.log(myMoney === friendMoney); // false
+
+// // 2. 
+// let program = 'Javascript';
+// let program2 = "Javascript"
+// console.log(program == program2); // true
+// console.log(program === program2); // true
+
+// // 3.
+// let twentyFive = 25;
+// let five = "25"
+// console.log(twentyFive == five); // true, value are same.
+// console.log(twentyFive === five); // false, data type are not same.
+
+// // 4. 
+// let apple = 'apple'
+// let aPple = 'apple'
+// console.log(apple === aPple); // true, value and data type same
+
+// // 5. 
+// let test = 'test'
+// let teSt = 'TEST'
+// console.log(test === teSt); // false , data type are not same
+
+// // 6. 
+// let variableX = 15;
+// let variableY = 20;
+// console.log(variableX != variableY); // true, value not same
+// console.log(variableX !== variableY); // true, value not same
+
+// // 7. 
+// let variableA = 'hello'
+// let variableB = 'Hello'
+// console.log(variableA == variableB); // false, value not same
+// console.log(variableA === variableB); // false, value and data not same
+
+// ### chapter 5: if dlse
+
+// topics: condition
+
+// 1.
+let toHome = 6;
+if (toHome == 6) {
+    console.log("mother will give me snaks");// this line will execute
+}else{
+    console.log('punishment should have');
+}
+
+// 2.
+var isLogin = true;
+if (isLogin == true) {
+    console.log('Welcome back'); // this line will execute
+}else{
+    console.log("log in first");
+}
+
+
+
+
+
+
+
 
 
 
