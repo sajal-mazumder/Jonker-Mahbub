@@ -569,64 +569,136 @@ let username = 'jovan'
 // topics: condition
 
 // 1.
-let toHome = 6;
-if (toHome == 6) {
-    console.log("mother will give me snaks");// this line will execute
-}else{
-    console.log('punishment should have');
+// let toHome = 6;
+// if (toHome == 6) {
+//     console.log("mother will give me snaks");// this line will execute
+// }else{
+//     console.log('punishment should have');
+// }
+
+// // 2.
+// var isLogin = true;
+// if (isLogin == true) {
+//     console.log('Welcome back'); // this line will execute
+// }else{
+//     console.log("log in first");
+// }
+
+// // 3. 
+// isRunning = 5;
+// if (isRunning != 5) {
+//     console.log('eating chocolate');
+// }else{
+//     console.log('belly will be fat'); // this line will execute    
+// }
+
+// // 4. 
+// let marks = 85;
+// if (marks > 80) {
+//     console.log('father will buy me a bike');
+// }else{
+//     console.log("no bike");
+// }
+
+// // 5. 
+// var movieTime = 9;
+// if (movieTime < 9) {
+//     console.log('I will see movie');
+// } else {
+//     console.log('sleeping time');
+// }
+
+// // 6. 
+// var temp = 30;
+// if (temp >= 30) {
+//     console.log('ac will running');
+// } else {
+//     console.log('no ac');
+// }
+
+// topics: and, or condition
+
+// 1. 
+const age = 18;
+const height = 60;
+if (age >= 18 && height > 60) {
+    console.log('you are good boy');
+} else {
+    console.log('bad boy');
 }
 
 // 2.
-var isLogin = true;
-if (isLogin == true) {
-    console.log('Welcome back'); // this line will execute
-}else{
-    console.log("log in first");
+let mathScore = 82;
+let engScore = 87;
+if (mathScore > 80 && engScore > 85) {
+    console.log("you can get admit");
+} else {
+    console.log('you are not qualified');
 }
 
 // 3. 
-isRunning = 5;
-if (isRunning != 5) {
-    console.log('eating chocolate');
-}else{
-    console.log('belly will be fat'); // this line will execute    
+let gpa = 5;
+let monthIncome = 10000;
+if (gpa == 5 && monthIncome <= 10000) {
+    console.log('eligible for getting scholarship');
+} else {
+    console.log('no scholarship');
 }
 
 // 4. 
-let marks = 85;
-if (marks > 80) {
-    console.log('father will buy me a bike');
-}else{
-    console.log("no bike");
+let jobAge = 30;
+let experience = 3;
+if (jobAge <= 30 && experience > 2) {
+    console.log('get your appointment letter');
+} else {
+    console.log('you are not qualified');
 }
 
 // 5. 
-var movieTime = 9;
-if (movieTime < 9) {
-    console.log('I will see movie');
+const egg = 10;
+const chicken = false;
+if (egg > 12 || chicken == false) {
+    console.log('eat polao korma');
 } else {
-    console.log('sleeping time');
+    console.log('eat banana and pauruti');
 }
 
 // 6. 
-var temp = 30;
-if (temp >= 30) {
-    console.log('ac will running');
+let bodyTemp = 100;
+let caugh = true;
+if (bodyTemp > 100 || caugh == false) {
+    console.log('you are attacked by fever');
 } else {
-    console.log('no ac');
+    console.log('you are well');
 }
 
+// 7. 
+let homeWork = true;
+let passMark = 85;
+if (homeWork == true || passMark > 90) {
+    console.log('you are passed');
+} else {
+    console.log('you are failed'); 
+}
 
+// 8.
+const electricity = false;
+const mobileCharge = false;
+if (electricity == true || mobileCharge == true) {
+    console.log('sitting for reading');
+} else {
+   console.log('game time');
+}
 
-
-
-
-
-
-
-
-
-
+// 9.
+let shirtPrice = 1200;
+let coupon = true;
+if (shirtPrice > 1000 || coupon == true) {
+    console.log('i will buy a new shirt');
+} else {
+    console.log('i will not buy shirt');
+    
+}
 
 
 
