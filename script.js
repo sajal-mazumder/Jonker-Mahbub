@@ -318,7 +318,7 @@
 // playTime = 0;
 // console.log(playTime);
 
-//### topics : commenst 
+//### topics : comments
 
 // 1. cricket score comment ban vs eng 2025
 
@@ -368,10 +368,10 @@ myFavFood = 'biriyani'
 
 // 2. case sensitive 
 
-let city = 'chattagram';
-let City = 'Dhaka';
-console.log(city);
-console.log(City);
+// let city = 'chattagram';
+// let City = 'Dhaka';
+// console.log(city);
+// console.log(City);
 
 // 3. case sensitive 
 
@@ -380,8 +380,8 @@ let username = 'jovan'
 
 // 4. camel case
 
-let myHomeAddress = 'Sandwip';
-console.log(myHomeAddress);
+// let myHomeAddress = 'Sandwip';
+// console.log(myHomeAddress);
 
 // 5. keyword
 
@@ -399,52 +399,95 @@ console.log(myHomeAddress);
 
 // 1. convert string to number
 
-let math = '20'
-math = parseFloat('20')
-let math1 = 10;
-let sum1 = math + math1
-console.log(sum1);
+// let math = '20'
+// math = parseFloat('20')
+// let math1 = 10;
+// let sum1 = math + math1
+// console.log(sum1);
 
 // 2. float to integer
 
-let floatNum = 3.444444;
-floatNum = parseInt(3.444444)
-console.log(floatNum);
+// let floatNum = 3.444444;
+// floatNum = parseInt(3.444444)
+// console.log(floatNum);
 
 // 3. string to number
 
-let word = 'premikboy'
-let word1 = parseInt('premikboy')
-console.log(word1); // NaN
+// let word = 'premikboy'
+// let word1 = parseInt('premikboy')
+// console.log(word1); // NaN
 
 // 4. output upto 2 position after decimal
 
-let one = 3.456;
-let two = 5.43231;
-let sumOf = one + two;
-console.log(parseFloat(sumOf.toFixed(2)));
+// let one = 3.456;
+// let two = 5.43231;
+// let sumOf = one + two;
+// console.log(parseFloat(sumOf.toFixed(2)));
 
 // 5. same as 4
 
-let first = 56.78758;
-let second = 12.34758;
-let totalOf = first + second;
-console.log(totalOf.toFixed(2)); // output as string
-console.log(parseFloat(totalOf.toFixed(2))); // output as number
+// let first = 56.78758;
+// let second = 12.34758;
+// let totalOf = first + second;
+// console.log(totalOf.toFixed(2)); // output as string
+// console.log(parseFloat(totalOf.toFixed(2))); // output as number
 
 // 6. output upto 1 position
 
-let num1 = 10.5678;
-let num2 = parseFloat('5.4321');
-let sumOfNum = num1 + num2;
-console.log(sumOfNum.toFixed(1)); // output as string 
-console.log(parseFloat(sumOfNum.toFixed(1))); // output as number
+// let num1 = 10.5678;
+// let num2 = parseFloat('5.4321');
+// let sumOfNum = num1 + num2;
+// console.log(sumOfNum.toFixed(1)); // output as string 
+// console.log(parseFloat(sumOfNum.toFixed(1))); // output as number
 
 // 7. upto 3  position
 
-let newNum = 43.456789765;
-let newNum1 = parseFloat(newNum.toFixed(3));
-console.log(newNum1);
+// let newNum = 43.456789765;
+// let newNum1 = parseFloat(newNum.toFixed(3));
+// console.log(newNum1);
+
+// #### chapter 4 : comparison
+
+// topics: comparison operator
+// 1. 
+// let me = 7;
+// let brother = 5;
+// console.log(me > brother);
+
+// // 2. 
+// let myClass = 45;
+// let anotherClass = 50;
+// console.log(myClass < anotherClass);
+
+// // 3. 
+// let myNum = 75;
+// let friendNum = 75;
+// console.log(myNum == friendNum);
+
+// // 4. 
+// let target = 100;
+// let joma = 95;
+// console.log(target == joma);
+
+// // 5. 
+// console.log(5 != 10);
+
+// // 6.
+// console.log(20 >= 15);
+
+// // 7. 
+// let meNum = 47;
+// let myFriendNum = 95;
+// console.log(meNum <= myFriendNum);
+
+// topics : variable comparison
+
+// 1.
+
+
+
+
+
 
 
 
