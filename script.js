@@ -483,6 +483,52 @@ let username = 'jovan'
 // topics : variable comparison
 
 // 1.
+let lilAge = 10;
+let myAge = 25;
+console.log(lilAge <= myAge);
+
+// 2. 
+let passMark = 33;
+let myMark = 45;
+console.log(passMark < myMark);
+
+// 3.
+let jambura = 45;
+let codbel = 45;
+console.log(jambura == codbel);
+
+// 4.
+let myRead = 10;
+let friendRead = 10;
+console.log(myRead == friendRead);
+
+// 5.
+let myBiscuit = 10;
+let friendBiscuit = 15;
+console.log(myBiscuit < friendBiscuit);
+
+// 6. 
+let realGoal = 2;
+let barcaGoal = 1;
+console.log(realGoal >= barcaGoal);
+
+// 7.
+let myName = "Rahim";
+let friendName = "Karim";
+console.log(myName == friendName);
+
+// 8.
+let myReading = true;
+let friendReading = false
+console.log(myReading == friendReading);
+
+
+
+
+
+
+
+
 
 
 
