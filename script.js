@@ -619,115 +619,203 @@ let username = 'jovan'
 // topics: and, or condition
 
 // 1. 
-const age = 18;
-const height = 60;
-if (age >= 18 && height > 60) {
-    console.log('you are good boy');
-} else {
-    console.log('bad boy');
-}
+// const age = 18;
+// const height = 60;
+// if (age >= 18 && height > 60) {
+//     console.log('you are good boy');
+// } else {
+//     console.log('bad boy');
+// }
 
-// 2.
-let mathScore = 82;
-let engScore = 87;
-if (mathScore > 80 && engScore > 85) {
-    console.log("you can get admit");
-} else {
-    console.log('you are not qualified');
-}
+// // 2.
+// let mathScore = 82;
+// let engScore = 87;
+// if (mathScore > 80 && engScore > 85) {
+//     console.log("you can get admit");
+// } else {
+//     console.log('you are not qualified');
+// }
 
-// 3. 
-let gpa = 5;
-let monthIncome = 10000;
-if (gpa == 5 && monthIncome <= 10000) {
-    console.log('eligible for getting scholarship');
-} else {
-    console.log('no scholarship');
-}
+// // 3. 
+// let gpa = 5;
+// let monthIncome = 10000;
+// if (gpa == 5 && monthIncome <= 10000) {
+//     console.log('eligible for getting scholarship');
+// } else {
+//     console.log('no scholarship');
+// }
 
-// 4. 
-let jobAge = 30;
-let experience = 3;
-if (jobAge <= 30 && experience > 2) {
-    console.log('get your appointment letter');
-} else {
-    console.log('you are not qualified');
-}
+// // 4. 
+// let jobAge = 30;
+// let experience = 3;
+// if (jobAge <= 30 && experience > 2) {
+//     console.log('get your appointment letter');
+// } else {
+//     console.log('you are not qualified');
+// }
 
-// 5. 
-const egg = 10;
-const chicken = false;
-if (egg > 12 || chicken == false) {
-    console.log('eat polao korma');
-} else {
-    console.log('eat banana and pauruti');
-}
+// // 5. 
+// const egg = 10;
+// const chicken = false;
+// if (egg > 12 || chicken == false) {
+//     console.log('eat polao korma');
+// } else {
+//     console.log('eat banana and pauruti');
+// }
 
-// 6. 
-let bodyTemp = 100;
-let caugh = true;
-if (bodyTemp > 100 || caugh == false) {
-    console.log('you are attacked by fever');
-} else {
-    console.log('you are well');
-}
+// // 6. 
+// let bodyTemp = 100;
+// let caugh = true;
+// if (bodyTemp > 100 || caugh == false) {
+//     console.log('you are attacked by fever');
+// } else {
+//     console.log('you are well');
+// }
 
-// 7. 
-let homeWork = true;
-let passMark = 85;
-if (homeWork == true || passMark > 90) {
-    console.log('you are passed');
-} else {
-    console.log('you are failed'); 
-}
+// // 7. 
+// let homeWork = true;
+// let passMark = 85;
+// if (homeWork == true || passMark > 90) {
+//     console.log('you are passed');
+// } else {
+//     console.log('you are failed'); 
+// }
 
-// 8.
-const electricity = false;
-const mobileCharge = false;
-if (electricity == true || mobileCharge == true) {
-    console.log('sitting for reading');
-} else {
-   console.log('game time');
-}
+// // 8.
+// const electricity = false;
+// const mobileCharge = false;
+// if (electricity == true || mobileCharge == true) {
+//     console.log('sitting for reading');
+// } else {
+//    console.log('game time');
+// }
 
-// 9.
-let shirtPrice = 1200;
-let coupon = true;
-if (shirtPrice > 1000 || coupon == true) {
-    console.log('i will buy a new shirt');
-} else {
-    console.log('i will not buy shirt');
+// // 9.
+// let shirtPrice = 1200;
+// let coupon = true;
+// if (shirtPrice > 1000 || coupon == true) {
+//     console.log('i will buy a new shirt');
+// } else {
+//     console.log('i will not buy shirt');
     
-}
+// }
 
 
+// topics : else if
 
+//     const price = 4000;
+// if (price >= 5000) {
+//     const discount = price / 100*10;
+//     const pay = price - discount;
+//     console.log(pay + ' ' + 'for my suit');
+// }else if (price >= 4500) {
+//     const discount = price / 100*10;
+//     const pay = price - discount;
+//     console.log(pay + ' ' + 'for my formal pant');
+// }else if (price >= 4000) {
+//     const discount = price / 100*10;
+//     const pay = price - discount;
+//     console.log(pay + ' ' + 'for my shirt');
+// }else if (price >= 3500) {
+//     const discount = price / 100*10;
+//     const pay = price - discount;
+//     console.log(pay + ' ' + 'for my tshirt');
+// }else{
+//     console.log(price); 
+// }
 
+// 1. 
+// const priecOf = 4500;
+// if (priecOf > 3000) {
+//     const discount = priecOf / 100 * 5;
+//     const pay = priecOf - discount;
+//     console.log(pay);
+// } else  if (priecOf > 6000) {
+    
+//     const discount = priecOf / 100*15;
+//     const pay = priecOf - discount;
+//     console.log(pay);
+// }else{
+//     console.log(priecOf);
+// } 
 
+// if (priecOf > 3000 || priecOf > 6000) {
+//     const discount = priecOf / 100*5;
+//     const pay = priecOf - discount;
+//     console.log(pay);
+// }else{
+//     const discount = priecOf / 100*15;
+//     const pay = priecOf - discount;
+//     console.log(pay);
+// }
 
+// // 2. 
+// const billAge = 65;
+// if (billAge < 12) {
+//     console.log('hotel free');
+// }else if (billAge <=60) {
+//     console.log('pay for full bill');
+// }else if(billAge > 60){
+//     console.log('pay 50% discount');
+// }else{
+//     console.log('no condition');
+    
+// }
 
+// // 3. 
+// const bankAmount = 10000;
+// if (bankAmount < 1000) {
+//     console.log("dipossit to be done");
+// }else if (bankAmount <= 5000) {
+//     console.log('enjoy your life');
+// }else if(bankAmount > 5000){
+//     console.log('you are too rich');
+// }else{
+//     console.log('nothing to tell');
+// } 
 
+// // 4. 
+// const examMark = 75;
+// if (examMark < 50) {
+//     console.log('you are failed');
+// }else if (examMark <= 80) {
+//     console.log('you are passed');
+// }else if (examMark > 80) {
+//     console.log('hurrah! you obtained A+');
+// }
 
+// // 5. 
+// let bookPage = 1435;
+// if (bookPage < 100) {
+//     console.log('small book');
+// }else if (bookPage <= 500) {
+//     console.log('mid- size book');
+// }else if (bookPage > 500) {
+//     console.log('heart attack size book');
+// }
 
+// // 6. 
+// let todayTemp = 32;
+// if (todayTemp < 0) {
+//     console.log('ice mood');
+// }else if (todayTemp <= 20) {
+//     console.log('Cool Cool weather');
+// }else if (todayTemp > 20) {
+//     console.log('hot weather');
+// }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// // 7. 
+// let playLabel = 15;
+// if (playLabel < 10) {
+//     console.log('novice');
+// }else if (playLabel <= 50) {
+//     console.log('expert');
+// }else if ( playLabel > 50) {
+//     console.log('Pro gamer');
+// }else{
+//     console.log('no condition');
+    
+// }
 
 
 
