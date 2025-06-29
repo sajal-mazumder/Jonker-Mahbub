@@ -814,15 +814,278 @@ let username = 'jovan'
 //     console.log('Pro gamer');
 // }else{
 //     console.log('no condition');
-    
 // }
 
 
+// topics : nested if else
+
+// 1.
+// const invite = true;
+// const gift = 1200;
+
+// if (invite === true) { // or if(invite)
+//     console.log('attend birthday party');
+//     if (gift >= 1200) {
+//         console.log('buy gift for friend');
+//     }else{
+//         console.log('gift is so cheap');
+//     }
+// }else{
+//     console.log('no party');
+// }
+
+// 2. 
+
+// const guest = true;
+// const eatBiscuit = true;
+
+// if (guest) {
+//     console.log('would you like to take tea');
+//     if (eatBiscuit) {
+//         console.log('take a biscuit with tea');
+//     }else{
+//         console.log('take only tea');
+//     }
+// }else{
+//     console.log('watch movie');
+// }
+
+// 3.
+
+// const app = true;
+// const subscription = true;
+
+// if (!app) {
+//     console.log('is your account active?');
+//     if (subscription) {
+//         console.log('if you are a premium user?');
+//     }else{
+//         console.log('watch premium feature');
+//     }
+// }else{
+//     console.log('watch free version');
+// }
+
+// 4.
+
+// const food = true;
+// const deliveryApp = true;
+
+// if (food === false) {
+//     console.log('is my food hot?');
+//     if (deliveryApp) {
+//         console.log('bring food for me');
+//     }else{
+//         console.log('app is not active');
+//     }
+// }else{
+//     console.log('today is my upposh');
+// }
+
+// 5.
+
+// const party = 120;
+// const gift = true;
+
+// if (party <= 100) {
+//     console.log('welcome to my party');
+//     if (gift) {
+//         console.log('Lets party all night');
+//     }else{
+//         console.log('I will party myself');
+//     }
+// }else{
+//     console.log('no party');
+// }
+
+// 6.
+
+// const money = 300;
+// const popcornPrice = 40;
+
+// if (money >= 300) {
+//     console.log("Go to watch movie")
+//     if (popcornPrice <= 50) {
+//         console.log('Buy and eat popcorn');
+//     }
+//     else{
+//         console.log("popcorn is expensive");
+//     }
+// }else{
+//     console.log('Stay home');
+// }
+
+//  topics : logical not and ternary operator
+
+// const age = 20;
+// age >= 18? console.log("vote for right person") : console.log('not eligible for vote');
+
+// let price = 500;
+// const isLeader = false;
+// if (isLeader === false) {
+//      price = 0
+//      console.log(price);
+     
+// }else{
+//     price = price + 100
+//     console.log(price);
+// }
+
+// 1. 
+
+// let cashback = 3000;
+
+// cashback >= 3000? console.log('get cashback tk 500 ') : console.log('no cashback');
+
+// // 2. 
+// let age = 35;
+// age >= 18? console.log('You are adult') : console.log('Child');
+
+// // 3. 
+
+// let isLoggedIn = true;
+// isLoggedIn === false? console.log('Welcome') : console.log("Please log in ");
+
+// // 4. 
+
+// let isTankFull = true;
+// isTankFull === false? console.log('Ready for a long journey') : console.log('Fill in the tank');
+
+// // 5. 
+
+// let study = false;
+// study === true? console.log('Party time') : console.log('Serious for next semester');
+
+// // 6. 
+
+// let sunny = false;
+// sunny === false ? console.log('Stay home') : console.log('go out for work');
+
+// // 7. 
+
+// let expensive = false;
+// expensive === false? console.log('buy one shirt') : console.log('expensive');
+
+// ##### chapter 6: array
+
+// topics: array length
+
+// 1. 
+
+// const nums = [71, 72, 73, 74, 75, 76, 77, 78, 79]
+// console.log(nums);
+
+// // 2. 
+
+// const fruits = ['apple', 'banana', 'orange', 'mango', 'guava'];
+// console.log(fruits);
+
+// // 3. 
+
+// const vegetables = ['alu', 'begun', 'mula', 'tomato', 'darosh', 'gajor', 'lau', 'sosa', 'patol']
+// console.log(vegetables);
+// console.log(vegetables.length);
+
+// // 4. 
+
+// const movies = ['don', 'bon', 'mon', 'ton', 'lon']
+// console.log(movies);
+
+// // 5. 
+
+// const oddNums = [11, 13, 15, 17, 19, 21, 23, 25, 27, 29]
+// console.log(oddNums);
+// console.log(oddNums.length);
+
+// // 6. 
+
+// let color = ['red', 'blue', 'green', 'white', 'black', 'maroon', 'skyblue']
+// console.log(color.length);
+
+// // 7. 
+
+// let capital = ['dhaka', 'dilli', 'islamabad', 'thimpu', 'tokyo']
+// console.log(capital);
+// console.log(capital.length);
+
+// topics: array index
+
+// 1.
+// let friends = ['sajal', 'borsa', 'mukta', 'minhaz', 'avijit', 'ripon', 'rubaiya']
+// console.log(friends[3]);
+
+// // 2. 
+// let books = ['bangla', 'english', 'math', 'biology', 'physics', 'chemistry', 'higher math']
+// console.log(books[4]);
+
+// // 3. 
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// console.log(numbers);
+// numbers[6] = 30
+// console.log(numbers);
+
+// // 4. 
+// let games = ['free fire', 'pubg', 'candy crush', 'temple run']
+// games[2] = 'subway surfer'
+// console.log(games);
+
+// // 5. 
+// let countries = ['india', 'pakistan', 'nepal', 'bhutan', 'srilanka', 'maldives', 'england', 'australia']
+// console.log(countries[3]);
+
+// // 6. 
+// let elements = ['pen', 'book', 'pencil', 'eraser']
+// console.log(elements[7]);
+
+// topics: push, pop, shift, unshift
+
+// 1. 
+// let numbers = [10, 20, 30, 40, 50];
+// numbers.push(60)
+// console.log(numbers);
+
+// // 2. 
+// let names = ['sajib', 'sagar', 'sakib', 'sohel'];
+// names.push('suman');
+// console.log(names);
+
+// // 3. 
+// let mobileGames = ['ludo', 'candy crush', 'card 29', 'cricket'];
+// mobileGames.pop();
+// console.log(mobileGames);
+
+// // 4. 
+// let arr = [12, 24, 36, 48];
+// arr.unshift(6);
+// console.log(arr);
+
+// // 5. 
+// let readBooks = ['bangla', 'english', 'math', 'biology', 'physics']
+// readBooks.shift()
+// console.log(readBooks);
+
+// // 6.
+// let arr2 = [1,2,3,4,5,6,7];
+// let arr3 = arr2.pop();
+// console.log(arr3);
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
