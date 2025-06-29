@@ -1069,8 +1069,50 @@ let username = 'jovan'
 // let arr3 = arr2.pop();
 // console.log(arr3);
 
+// topics: includes methods, indexOf
 
+// 1.
+let fruitsArr = ['mango', 'banana', 'apple', 'orange'];
+let mangoExist = fruitsArr.includes('Mango')
 
+if (fruitsArr.includes('Mango')) {
+    console.log('eat mango');
+}else{
+    console.log('no mango, lift to tree.');
+}
+
+// 2, 
+let nameOf = ['babul', 'alif', 'choton'];
+let chotonIndexOf = nameOf.indexOf('choton');
+console.log(chotonIndexOf);
+
+// 3. 
+let friendsName = ['rimon', 'rifat', 'rajib'];
+let rifatIndex = friendsName.indexOf('rifat')
+console.log(rifatIndex);
+
+// 4. 
+let cities = ['dhaka', 'rajshahi', 'chattagram', 'kumilla'];
+let rajshahiExist = cities.includes('Rajshahi');
+if (cities.includes('Rajshahi')) {
+    console.log('Yes! all is ok!');
+}else{
+    console.log('sorry');
+}
+
+// 5.
+let newArr = ['rain', 'pond', 'river', 'cloud', 'air', 'water', 'sea'];
+let rainExist = newArr.includes('rain');
+if (newArr.includes('rain')) {
+    console.log('I need umbrella');
+}else{
+    console.log('no rain, no pain');
+}
+
+// 6.
+let favGames = ['cricket', 'football', 'basketball', 'badminton']
+let badmintonExist = favGames.includes('badminton')
+console.log(badmintonExist);
 
 
 
